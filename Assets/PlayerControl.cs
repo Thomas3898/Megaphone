@@ -22,7 +22,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                     ""name"": ""Move"",
                     ""type"": ""Value"",
                     ""id"": ""b53eb457-82fe-4925-a165-f8d1f03bbca7"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Vector3"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -32,7 +32,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                     ""name"": ""2D Vector"",
                     ""id"": ""8636fbaf-94fd-4104-ab64-b214673ef964"",
                     ""path"": ""2DVector"",
-                    ""interactions"": """",
+                    ""interactions"": ""Hold"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Move"",
@@ -42,7 +42,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                 {
                     ""name"": ""up"",
                     ""id"": ""aca88b6f-3a69-428c-b4ce-5923d23f40db"",
-                    ""path"": ""<Keyboard>/z"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -64,7 +64,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                 {
                     ""name"": ""left"",
                     ""id"": ""b2f54eee-3fa3-45d5-904f-62c933196711"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
