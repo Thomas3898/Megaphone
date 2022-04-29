@@ -585,6 +585,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2778346790474177049, guid: d3ed152250b90334ead990d6630c91d8, type: 3}
+      propertyPath: waveAttack.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778346790474177049, guid: d3ed152250b90334ead990d6630c91d8, type: 3}
       propertyPath: startData.Array.data[0].speed
       value: 5
       objectReference: {fileID: 0}
@@ -594,6 +598,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2778346790474177049, guid: d3ed152250b90334ead990d6630c91d8, type: 3}
       propertyPath: startData.Array.data[2].speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778346790474177049, guid: d3ed152250b90334ead990d6630c91d8, type: 3}
+      propertyPath: waveAttack.Array.data[0].targetData.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778346790474177049, guid: d3ed152250b90334ead990d6630c91d8, type: 3}
+      propertyPath: waveAttack.Array.data[1].targetData.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666993719853265043, guid: d3ed152250b90334ead990d6630c91d8, type: 3}

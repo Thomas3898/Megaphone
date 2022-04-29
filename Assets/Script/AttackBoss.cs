@@ -11,8 +11,10 @@ public class AttackBoss : MonoBehaviour
     public GameObject bullet;
     [SerializeField]
     [Header("Attack1")]
-    public TargetData[] startData;
+    
+    
     public GameObject[] startPosition;
+    public WaveInWave[] waveAttack;
     [Header("Attack2")]
     public TargetData[] startPoint2;
     [Header("Attack3")]
@@ -27,6 +29,7 @@ public class AttackBoss : MonoBehaviour
     }
     void Start()
     {
+        StartCoroutine(Attack1Wave1());
         Attack1Wave1();
     }
 
@@ -36,17 +39,24 @@ public class AttackBoss : MonoBehaviour
         
     }
 
-    void Attack1Wave1()
+    IEnumerator Attack1Wave1()
     {
-        for (int i = 0; i < startData.Length; i++)
+        
+        for (int i = 0; i < waveAttack.Length; i++)
         {
-            if(startData[i].activate == true)
+            WaitForSeconds wait = new WaitForSeconds(waveAttack[i].time);
+            
+            for (int t = 0; t < waveAttack[i].targetData.Length; t++)
             {
-                GameObject bulletInstance;
-                bulletInstance = Instantiate(bullet, startPosition[i].transform.position, startPosition[i].transform.rotation);
-                bulletRb = bulletInstance.gameObject.GetComponent<Rigidbody>();
-                bulletRb.velocity = startPosition[i].transform.TransformDirection(Vector3.forward * startData[i].speed);
+                if (waveAttack[i].targetData[t].activate == true)
+                {
+                    GameObject bulletInstance;
+                    bulletInstance = Instantiate(bullet, startPosition[t].transform.position, startPosition[t].transform.rotation);
+                    bulletRb = bulletInstance.gameObject.GetComponent<Rigidbody>();
+                    bulletRb.velocity = startPosition[i].transform.TransformDirection(Vector3.forward * waveAttack[i].targetData[t].speed);
+                }
             }
+            yield return wait;
         }
     }
 
