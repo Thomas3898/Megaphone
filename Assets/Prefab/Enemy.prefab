@@ -2108,67 +2108,6 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: 0}
   position: {x: 0, y: 0, z: 0}
   bullet: {fileID: 8027551333964059567, guid: e8d6c1d507e96084e8add5a210d44200, type: 3}
-  startData:
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 1
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 1
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 1
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
-  - Direction: {x: 0, y: 0, z: 0}
-    activate: 0
-    speed: 0
   startPosition:
   - {fileID: 9219634522061906111}
   - {fileID: 8315056831599847406}
@@ -2190,6 +2129,7 @@ MonoBehaviour:
   - {fileID: 598890486913454117}
   - {fileID: 3932894151556625884}
   - {fileID: 4909575229715497188}
+  waveAttack: []
   startPoint2: []
   startPoint3: []
   bulletRb: {fileID: 0}
@@ -4285,8 +4225,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8757234779742065326}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 8238861577628059731}
   m_RootOrder: 0
