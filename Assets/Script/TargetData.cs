@@ -11,10 +11,12 @@ public class TargetData
     public bool activate = false;
     [SerializeField]
     public float speed = 1.0f;
+    [SerializeField]
+    public bool lookAtPlayer = false;
 
 
     // Start is called before the first frame update
-    
+
 }
 
 public class Target : MonoBehaviour
