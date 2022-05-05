@@ -13,6 +13,8 @@ public class TargetData
     public float speed = 1.0f;
     [SerializeField]
     public bool lookAtPlayer = false;
+    public bool useAnimation;
+    public AnimationClip animation;
 
 
     // Start is called before the first frame update

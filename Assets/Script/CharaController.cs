@@ -36,7 +36,7 @@ public class CharaController : MonoBehaviour
         {
             
         }*/
-        Debug.Log(controlForV3);
+        
         
         
         
